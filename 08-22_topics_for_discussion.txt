@@ -1,0 +1,84 @@
+1. Ask Dr. Fu to post all project documents including project overall description
+
+2. Get a volunteer to be minute taker for all meetings, someone with good attendance
+	Team leader should send out agenda
+
+3. Choose team leader, good attendance, good leadership, willing to claim ultimate
+	responsibility, focused on the absolute requirements, not the extras
+	must use MS Project to make project plan and keep it updated each week
+	should follow up with each group member to make sure they are on task
+	must email Dr. Fu every week letting him know project status and status of assigned tasks
+	Take a vote
+	Team leader should let Dr. Fu know that they were chosen
+
+4. What day of the week should we meet?  What time?  What location?  In class?
+
+5. What tools do we want to use?
+	.NET will make meeting the requirements easy.  Visual Studio has visual controls like an open file dialog
+	control, which makes allowing users to upload their posters easy.  We don't have to write some Java
+	class to attach to the file system and get the poster the user chooses.  .NET makes sending emails in
+	response to events easy.  Using Java might require coding our own email subsystem, complex user/membership
+	classes (.NET makes account creation and management really easy).  In summary, with Java you have to
+	write everything the difficult way, and with .NET so much functionality is already made for you and it
+	only takes a few simple lines of code to make the controls respond to events.
+
+
+	We have to consider about how desktop/laptop and mobile users will access the application over the Internet.
+		Both groups desktop/laptop and mobile access and modify the same database.
+		By hosting our application on the cloud (both the website project for desktop/laptop users) and the
+			Android mobile app (a separate application), both groups of users will be able to access the
+			database for our system over the Internet.
+		During development using Visual Studio everything is easy because it has a built in database server
+			and web server, but we need to start thinking about how to host a .NET project running on
+			a cloud server.  The users won't be opening visual studio and running our application. We may
+			have to use a different database and web server when the application is placed on the cloud.
+		ASP.NET with C# or VB will allow us to develop most of the functionality of the .NET website within about
+		 	two weeks, but it may take considerably longer to develop the Android app unless someone has
+			Android experience.  What will probably take the longest time is to integrate the .NET website
+			with the Android app, make them work with the same database, and figure out how to transfer everything
+			we make to the cloud, making it work with whatever database server and web server the cloud server
+			provides. We have to leave enough time for testing.
+		
+
+	Visual Studio 2010 - available through UCO, 
+		- must agree on which version, compatibility issues with editing code
+		- has built in IIS web server
+	.NET, ASP.NET MVC, not web forms or web pages
+		- MVC is maintainable, is better for pattern design
+		and provides for separation of concerns
+	Argo UML - available through source forge
+	visual source safe 2005 - available through UCO
+	Android - will it work with .NET systems?
+	Cloud - Google App - use if there is time
+	Application server should be built into Visual Studio
+
+6. Development Methodology
+	Agile - Will allow us to get an early prototype working
+		Start testing early
+		Can change functional requirements as needed
+		We can demo our project to Dr. Fu to get his feedback early on
+		The progress will be visible and we are held accountable
+		
+7. Assign tasks for this week
+	Need to get planning finished
+	Need to finish requirements elicitation
+	Need to finish requirements analysis
+	Need to at least start design for first release
+
+8. Make a deadline for first release
+
+9. Choose a method of offline communication ... email and phones, no texts (too inefficient)
+
+10. Need to compare our planning, requirements, and design documents early next week and combine
+
+11. Make a prototype for system - possibly a throw away - start making unit tests in Visual Studio
+	or whatever IDE we choose
+
+12. Have to be prepared for presentation in less than a month
+	Need volunteer to start making power point next week or we can each make own sections
+	We may have to make major changes to power point if we finish it too early
+	We need to already have in mind what we will say
+	Need to reherse
+	Should have first release ready before presentation
+	
+	

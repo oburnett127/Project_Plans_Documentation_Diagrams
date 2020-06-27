@@ -1,0 +1,30 @@
+We need to make sure all of the requirements are met before we start incorporating extra non-required features into
+our design an implementing and testing them.  We should not care about how things look when we design, implement,
+and test the system.  When we make the desktop/laptop version of the website we shouldn't even consider the looks
+of the system until we have made the Android app, integrated all subsystems, tested everything, and hosted the
+system successfully on the cloud. Do not waste time on animation.
+
+USE CASE LIST
+Participants (don't call it users because admins are users) register. (Admins don't register, we create their accounts
+	in VS while the system is not running)
+Log in - is this a use case?
+Users can submit their posters in one of the specified formats.
+Print poster - admin (IT staff member) prints poster
+Update poster status - admin changes poster's status to "printed" after poster has been printed
+Check poster status - Users (both participants and admins) can check a poster's status (participants must authenticate)
+Add account - Admin can add a participant account (should they be able to add admin accounts too? Need clarification)
+Edit account - Admins can edit the account information of any participant
+Delete account - Admins can delete any participant account
+
+NON-FUNCTIONAL REQUIREMENTS - in no particular order
+Reliability - System should respond correctly to user actions
+Availability - System should be highly available, user should be able to access and use system to meet the functional
+	requirements at any time, on any day (hosted on a highly available cloud server)
+Maintainable - System design should be modular, there should be a separation of concerns so that whenever one
+	subsystem changes another subsystem is not affected. A three tier architecture will be used. It will be easy
+	for developers to make improvements to the system.
+Speed/Throughput/Performance - System should respond quickly to user interactions and execute its application logic
+	in a very short amount of time. The system should update the user's view immediately displaying the
+	requested page or data
+
+HAVE TO MAKE SURE TO USE DESIGN PATTERNS IN THE DESIGN OF THE SYSTEM AND DOCUMENT THEM WITH DIAGRAMS
